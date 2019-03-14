@@ -1,11 +1,12 @@
 export default {
+    props: ['liveuser'],
 
     template: `
     <div id="userContainer">
-            <div>
+            <div @click="navToUserHome()">
                 <div id="user">
-                    <img src="">
-                    <p>Username</p>
+                    <img :src="'images/' + liveuser.avatar">
+                    <p>{{ liveuser.username }}</p>
                 </div>
             </div>
     </div>`,
@@ -23,6 +24,4 @@ export default {
             localStorage.setItem("cachedUser", JSON.stringify(this.liveuser)); 
         }
     }
-}
-
 }
