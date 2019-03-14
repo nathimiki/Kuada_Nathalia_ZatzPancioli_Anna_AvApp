@@ -30,3 +30,83 @@
     font-weight: normal;
     font-style: normal;
 }
+
+
+body{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background: $dark-grey;
+    color: $white;
+    font-family: 'open_sanslight', Helvetica, Arial, sans-serif;
+}
+
+h1{
+    font-family: 'ostrich_sansmedium', Helvetica, Arial, sans-serif;
+    font-size: calc(50px + (90 - 50) * ((100vw - 300px) / (2560 - 300)));
+}
+
+h2{
+    font-family: 'ostrich_sansmedium', Helvetica, Arial, sans-serif;
+    font-size: calc(35px + (70 - 35) * ((100vw - 300px) / (2560 - 300)));
+}
+
+p{
+    font-size: calc(14px + (24 - 14) * ((100vw - 300px) / (2560 - 300)));
+}
+
+img{
+    padding: 0;
+    margin:0;
+}
+
+.row{
+    max-width: 100%;
+    margin: 0;
+}
+
+.columns{
+    padding:0;
+    margin-left: auto;
+    margin-right: auto;
+    float: none !important; 
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+#main{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding-top: 2%;
+}
+
+#app{
+    min-height: calc(100vh - 70px);
+}
+
+a{ 
+    text-decoration: none; 
+    color: $white; 
+    transition: color 0.3s ease;
+}
+
+a:hover, a:active, a.active{ 
+    color: $yellow;
+}
+
+.toast {
+	position: absolute;
+	right: 1em;
+	top: 4.25rem;
+	z-index: 200;
+	color: #333;
+	min-width: 175px;
+
+	.toast-body {
+		span { margin-left: 0.8rem; position: relative; top: -2px; font-weight: bolder; }
+	}
+}
