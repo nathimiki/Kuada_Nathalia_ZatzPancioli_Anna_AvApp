@@ -1,0 +1,18 @@
+.loginContainer{
+    text-align: center;
+}
+
+.loginContainer p{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.loginContainer button{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    cursor: pointer;
+    padding: 2% 4% 2% 4%;
+    background: $yellow;
+    color: $white;
+    font-family: $text-font-bold;
+}
