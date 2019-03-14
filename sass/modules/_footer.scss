@@ -1,0 +1,15 @@
+footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-top: 3%;
+    text-align: center;
+    li{
+        display: inline-block;
+    }
+    a{
+        cursor: pointer;
+    }
+}
