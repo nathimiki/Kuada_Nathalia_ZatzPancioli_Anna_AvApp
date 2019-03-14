@@ -1,0 +1,24 @@
+@media (max-width:600px){
+    #clickNav{ 
+        left: 3vh; 
+    }
+} 
+
+@media (max-width:600px){
+    #editUser{
+        display: block;
+        align-items: center;
+        justify-self: center;
+        h4{
+            margin-top: 2%;
+            margin-bottom: 15%;
+        }
+    }
+}
+
+@media (max-width:600px){
+    #userContainer img{
+        padding-right: 0;
+        padding-left: 0;
+    }
+}

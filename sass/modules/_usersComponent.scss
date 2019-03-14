@@ -1,0 +1,28 @@
+#user{
+    width: 100%;
+    height: auto;
+    margin-top: -5%;
+    padding-right: 2%;
+}
+
+#userContainer{
+    display: inline-block;
+    text-align: center;
+}
+
+#userContainer img{
+    margin-top: 15%;
+    padding-right: 15%;
+    padding-left: 15%;
+    cursor: pointer;
+}
+
+#usersTitle{
+    padding-top: 15%;
+}
+
+.usersContainer{
+    text-align: center;
+    background: $black;
+    padding: 3%;
+}
