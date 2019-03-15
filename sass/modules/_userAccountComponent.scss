@@ -15,4 +15,21 @@
     h4{
         margin-top: 10%;
     }
+    li{
+        cursor: pointer;
+    }
+}
+
+.createUserForm{
+    form{
+        p{
+            color: $white;
+        }
+        button{
+            color: $white;
+            background: $yellow;
+            padding: 2%;
+            cursor: pointer;
+        }
+    }
 }
