@@ -16,7 +16,7 @@ Add the folder to your localhost
 
 ## Authors
 
-Anna Carolina Zatz Pancioli
+Anna Carolina Zatz Pancioli<br>
 Nathalia Miki Kuada
 
 ## License
