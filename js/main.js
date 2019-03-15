@@ -3,6 +3,8 @@ import UsersComponent from './components/UsersComponent.js';
 import LoginComponent from './components/LoginComponent.js';
 import UserAccountComponent from './components/UserAccountComponent.js';
 import UserHomeComponent from './components/UserHomeComponent.js';
+import UserCreateComponent from './components/UserCreateComponent.js';
+import UserEditComponent from './components/UserEditComponent.js';
 
 let router = new VueRouter({
 
@@ -10,8 +12,10 @@ let router = new VueRouter({
       { path: '/', redirect: { name: "login"} },
       { path: '/login', name: "login", component: LoginComponent },
       { path: '/users', name: 'users', component: UsersComponent },
-      { path: '/userhome', name: "home", component: UserHomeComponent, props: true },
-      { path: '/account', name: 'account', component: UserAccountComponent }
+      { path: '/userhome', name: 'home', component: UserHomeComponent, props: true },
+      { path: '/account', name: 'account', component: UserAccountComponent, props: true },
+      { path: '/createuser', name: 'createuser', component: UserCreateComponent, props: true },
+      { path: '/edituser', name: 'edituser', component: UserEditComponent, props: true }
   ]
 });
 
